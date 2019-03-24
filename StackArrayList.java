@@ -1,10 +1,10 @@
 import java.util.ArrayList;
 
-public class StackLinearList<X> implements Stack<X> {
+public class StackArrayList<X> implements Stack<X> {
 
     private ArrayList<X> list;
 
-    public StackLinearList() {
+    public StackArrayList() {
         list = new ArrayList<X>();
     }
 
